@@ -1,5 +1,40 @@
-﻿MIT License
+﻿CCBP-CLP COMMUNITY LICENSE v0.1
 
-Copyright (c) 2026
+Copyright (c) 2026 Kevin Rankin
 
-Permission is hereby granted, free of charge, to any person obtaining a copy...
+This License governs use of the "CCBP Governance Adapter" repository (the “Software”).
+
+1) Definitions
+- “CLP” means the Constitutional Language Protocol used to author and operate governance scripts/artifacts.
+- “CLP-Compliant Use” means: (a) the Software is used in a manner consistent with CLP requirements documented in CLP.md,
+  and (b) the user does not remove or bypass governance controls intended to preserve auditability, append-only integrity,
+  or SIM vs REAL enforcement boundaries.
+- “Commercial Use” means use primarily intended for or directed toward commercial advantage or monetary compensation.
+
+2) Grant of Rights (CLP-Compliant / Community Use)
+Subject to Section 3, you are granted a worldwide, non-exclusive, royalty-free license to:
+- use, copy, modify, and distribute the Software
+- create derivative works
+- use the Software to build, run, and train systems and workflows
+…provided your use is CLP-Compliant.
+
+3) Commercial Use Requires Separate Agreement
+Commercial Use is NOT granted under this License by default.
+Commercial Use is permitted only under a separate written agreement (“Commercial Addendum”) with the Licensor.
+
+The Commercial Addendum may include compensation terms, including an IP participation or royalty arrangement,
+capped at five percent (5%) as negotiated and stated in that Addendum.
+
+See COMMERCIAL.md for the process to obtain commercial terms.
+
+4) Attribution and Notice
+You must retain this LICENSE file and any NOTICE/attribution in source distributions.
+
+5) No Warranty
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+6) Limitation of Liability
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
