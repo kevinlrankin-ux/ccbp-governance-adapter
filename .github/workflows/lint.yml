@@ -1,0 +1,14 @@
+﻿name: lint
+on: [push, pull_request]
+jobs:
+  noop:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: PowerShell parse check
+        shell: pwsh
+        run: |
+          Get-ChildItem -Recurse -Filter *.ps1 | ForEach-Object {
+            try { [ScriptBlock]::Create((Get-Content $_.FullName -Raw)) | Out-Null; "OK $($_.FullName)" }
+            catch { "ERR $($_.FullName) :: $($_.Exception.Message)"; exit 1 }
+          }

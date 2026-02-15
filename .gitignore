@@ -1,0 +1,18 @@
+﻿# Runtime ledgers / outboxes
+ledger/*.jsonl
+ledger/*.csv
+ledger/anchors/
+ledger/enterprise_outbox/
+
+# CR runtime artifacts (optional patterns — adjust to taste)
+changes/**/stamp.yaml
+changes/**/sim_stamp.yaml
+changes/**/label_oh-01.json
+
+# OS/editor
+Thumbs.db
+.DS_Store
+*.swp
+
+# PowerShell modules cache
+**/Modules/
