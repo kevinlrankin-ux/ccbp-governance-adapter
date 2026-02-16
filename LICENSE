@@ -1,40 +1,51 @@
-﻿CCBP-CLP COMMUNITY LICENSE v0.1
+﻿CCBP Governance Adapter License (v1.0)
 
-Copyright (c) 2026 Kevin Rankin
+Copyright (c) 2026
 
-This License governs use of the "CCBP Governance Adapter" repository (the “Software”).
+1) Non-Commercial & CLP-Compliant Use
 
-1) Definitions
-- “CLP” means the Constitutional Language Protocol used to author and operate governance scripts/artifacts.
-- “CLP-Compliant Use” means: (a) the Software is used in a manner consistent with CLP requirements documented in CLP.md,
-  and (b) the user does not remove or bypass governance controls intended to preserve auditability, append-only integrity,
-  or SIM vs REAL enforcement boundaries.
-- “Commercial Use” means use primarily intended for or directed toward commercial advantage or monetary compensation.
+Permission is granted, free of charge, to use, modify, and distribute this Software for:
 
-2) Grant of Rights (CLP-Compliant / Community Use)
-Subject to Section 3, you are granted a worldwide, non-exclusive, royalty-free license to:
-- use, copy, modify, and distribute the Software
-- create derivative works
-- use the Software to build, run, and train systems and workflows
-…provided your use is CLP-Compliant.
+- Educational use
+- Research use
+- Internal organizational use
+- CLP-compliant system development
+- Non-commercial experimentation
+
+Provided that:
+- This license notice is retained
+- Modifications are documented
+- The Software is not redistributed as a commercial product without agreement
+
+2) Constitutional Language Protocol (CLP) Alignment
+
+Use of this Software within systems that follow the Constitutional Language Protocol (CLP) is explicitly permitted and encouraged.
+
+CLP-compliant implementations may integrate this Software without royalty, provided they do not commercialize the governance layer itself.
 
 3) Commercial Use Requires Separate Agreement
-Commercial Use is NOT granted under this License by default.
-Commercial Use is permitted only under a separate written agreement (“Commercial Addendum”) with the Licensor.
 
-The Commercial Addendum may include compensation terms, including an IP participation or royalty arrangement,
-capped at five percent (5%) as negotiated and stated in that Addendum.
+Commercial Use of the Software, where the Software is materially incorporated into a commercial product, governance framework, or derivative automation system, requires a separate written agreement (“Commercial Addendum”) with the Licensor.
 
-See COMMERCIAL.md for the process to obtain commercial terms.
+Under such Commercial Addendum, the Licensor may receive up to five percent (5%) ownership interest in derivative intellectual property directly created from substantial incorporation of the Software.
 
-4) Attribution and Notice
-You must retain this LICENSE file and any NOTICE/attribution in source distributions.
+For clarity:
 
-5) No Warranty
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
-THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+“Derivative intellectual property” means newly created software modules, governance frameworks, or automation architectures materially built from or embedding the Software.
 
-6) Limitation of Liability
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
-AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-DEALINGS IN THE SOFTWARE.
+Derivative intellectual property does NOT include:
+- Data produced by the Software
+- End-user business logic
+- Manufacturing outputs
+- PLC or control logic not derived from the Software itself
+- Independent systems that merely interface with the Software
+
+Absent a Commercial Addendum, Commercial Use is not granted under this License.
+
+4) Warranty Disclaimer
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND.
+
+5) Liability Limitation
+
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR DAMAGES ARISING FROM USE OF THE SOFTWARE.
