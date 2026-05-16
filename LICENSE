@@ -1,6 +1,8 @@
-﻿CCBP Governance Adapter License (v1.0)
+CCBP Governance Adapter License (v1.0)
 
-Copyright (c) 2026
+Copyright (c) 2026 Creative Bio-Solutions LLC
+
+Licensor: Creative Bio-Solutions LLC
 
 1) Non-Commercial & CLP-Compliant Use
 
@@ -25,13 +27,13 @@ CLP-compliant implementations may integrate this Software without royalty, provi
 
 3) Commercial Use Requires Separate Agreement
 
-Commercial Use of the Software, where the Software is materially incorporated into a commercial product, governance framework, or derivative automation system, requires a separate written agreement (“Commercial Addendum”) with the Licensor.
+Commercial Use of the Software, where the Software is materially incorporated into a commercial product, governance framework, or derivative automation system, requires a separate written agreement ("Commercial Addendum") with the Licensor.
 
 Under such Commercial Addendum, the Licensor may receive up to five percent (5%) ownership interest in derivative intellectual property directly created from substantial incorporation of the Software.
 
 For clarity:
 
-“Derivative intellectual property” means newly created software modules, governance frameworks, or automation architectures materially built from or embedding the Software.
+"Derivative intellectual property" means newly created software modules, governance frameworks, or automation architectures materially built from or embedding the Software.
 
 Derivative intellectual property does NOT include:
 - Data produced by the Software
@@ -44,7 +46,7 @@ Absent a Commercial Addendum, Commercial Use is not granted under this License.
 
 4) Warranty Disclaimer
 
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 
 5) Liability Limitation
 
